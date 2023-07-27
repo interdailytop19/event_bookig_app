@@ -1,0 +1,28 @@
+ <link rel="stylesheet" href="/css/settings.css">
+
+{{>navigation-bar}}
+
+<div class="settings-page">
+  <div class="form">
+    <h6>Account Settings</h6>
+    <form class="settings-form" action="/settings" method="post">
+
+        <div class="form-group row">
+            <label>Name</label>
+            <input type="text" placeholder="Name" value="{{name}}" name="name"/>
+        </div>
+        <div class="form-group row">
+            <label>Email</label>
+            <input type="text" placeholder="Email" value="{{email}}" name="email"/>
+        </div>
+        
+        <div class="form-group row">
+            <label>New password</label>
+            <input type="password" placeholder="New password" name="password"/>
+        </div>
+        
+        <button type="submit">Save</button>
+
+    </form>
+  </div>
+</div>

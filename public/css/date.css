@@ -1,0 +1,46 @@
+input {
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+    padding: 12px 10px;
+    text-align: center;
+    width: 1000px;
+    margin: 20px
+}
+
+button {
+    border: none;
+    border-radius: 10px;
+    padding: 12px 10px;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+button:disabled {
+    opacity: 0.1;
+}
+
+.flatpickr-clear {
+    height: 500px, !important
+}
+
+#continue{
+    margin: 20px
+
+}
+
+#basicDate{
+    display:none;
+}
+
+.selected-list{
+    margin-top: 20px
+}
+
+.listoff{
+    display: none;
+}
+
+.flatpickr-calendar {
+    margin: auto;
+}
